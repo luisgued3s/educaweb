@@ -1,0 +1,49 @@
+.bg-bgmw {
+    background-color: #3F3D40;
+    text-decoration-color: #D9BC66;
+  }
+
+  .bg-pc01 {
+    background-color: #D9BC66;
+    color: black;
+  }
+
+  .custom-link {
+    color: #D9BC66;
+  }
+
+  .nav-user-name {
+    color: #D9BC66;
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .dropdown-menu .dropdown-item {
+    border-bottom: none;
+  }
+  
+  .dropdown-menu {
+    background-color: #3F3D40; 
+  }
+  
+  .dropdown-menu a {
+    color: #D9BC66; 
+  }
+  
+  .dropdown-menu .dropdown-divider {
+    background-color: #D9BC66; 
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #D9BC66;
+    color: black; 
+  }
+  
+  .dropdown-menu .dropdown-item:active {
+    background-color: #D9BC66;
+    color: black;
+  }
+  
+  .NavBar {
+    border-bottom: 1px solid #D9bc66;
+  }

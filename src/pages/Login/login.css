@@ -1,0 +1,101 @@
+.container-secundario {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 1rem;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.links {
+  margin-top: 3rem;
+}
+
+.container-botao {
+  display: flex;
+  justify-content: center;
+}
+
+.senha-icone-olho {
+  background-color: white;
+  color: #d9bc66;
+  border-radius: 0px 5px 5px 0px;
+  padding: 0px;
+  margin: 0px;
+  max-height: 37.6px;
+}
+
+.custom-input{
+  border-radius: 5px 0px 0px 5px;
+  max-height: 37.6px;
+}
+
+.links a:hover,
+.links a:focus,
+.links a:active {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+
+.botao-enviar {
+  background: linear-gradient(#a68a56, #d9bc66, #a68a56);
+  border: none;
+  margin-top: 1rem;
+  color: white;
+  padding: 0.8em 4em;
+  font-size: 1.3em;
+  border-radius: 8rem;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.botao-enviar:hover {
+  background: linear-gradient(#d9bc66, #a68a56, #d9bc66);
+}
+
+.texto-titulo,
+.form-email,
+.form-senha,
+.form-esqueci-senha,
+.form-criar-conta {
+  color: #d9bc66;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+
+.social-login {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form-esqueci-senha:hover {
+  text-shadow: 1px 1px 2px #a68a56;
+}
+
+.form-criar-conta:hover {
+  text-shadow: 1px 1px 2px #a68a56;
+}
+
+.button-social:hover {
+  text-shadow: 1px 1px 2px #a68a56;
+  outline: 1px solid #a68a56;
+}
+
+.img-logo {
+  padding-bottom: 2rem;
+  width: 8rem;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+  .container-secundario {
+    padding: 20px;
+  }
+}
+
+.form-control[type="password"] {
+  width: 100%;
+  box-sizing: border-box;
+}

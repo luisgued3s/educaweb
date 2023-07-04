@@ -1,0 +1,50 @@
+.titulo {
+    color: #d9bc66;
+}
+
+.label {
+    color: #a68a56;
+}
+
+.add-aula {
+    border: 2px solid #a68a56;
+    border-radius: 15px;
+}
+
+
+
+.perfilButtonVoltar {
+    background: linear-gradient(#d32323, #c41515, #d32323) !important;
+    border: none !important;
+    margin-top: 1rem !important;
+    color: white !important;
+    font-size: 1.em !important;
+    border-radius: 15px !important;
+    cursor: pointer !important;
+    font-weight: bolder !important;
+    margin: 10px;
+    width: 200px;
+}
+
+.perfilButtonVoltar:hover {
+    background: linear-gradient(#c41515, #d32323, #c41515) !important;
+}
+
+
+
+.padraoButton {
+    background: linear-gradient(#A68A56, #D9BC66, #A68A56) !important;
+    border: none !important;
+    margin-top: 1rem !important;
+    color: white !important;
+    font-size: 1.em !important;
+    border-radius: 15px !important;
+    cursor: pointer !important;
+    font-weight: bolder !important;
+    margin: 10px;
+    width: 200px;
+}
+
+.padraoButton:hover {
+    background: linear-gradient(#D9BC66, #A68A56, #D9BC66) !important;
+}

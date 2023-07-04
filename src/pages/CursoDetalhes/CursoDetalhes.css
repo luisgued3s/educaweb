@@ -1,0 +1,210 @@
+.curso-detalhes {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.curso-info {
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.detalhes-curso-titulo {
+  font-size: 40px;
+  font-weight: bold;
+  color: #D9BC66;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.padraoButton {
+  background: linear-gradient(#A68A56, #D9BC66, #A68A56) !important;
+  border: none !important;
+  margin-top: 1rem !important;
+  color: white !important;
+  border-radius: 15px !important;
+  cursor: pointer !important;
+  font-weight: bolder !important;
+  margin: 10px;  
+  height: 10%;
+}
+
+.padraoButton {
+  background: linear-gradient(#A68A56, #D9BC66, #A68A56) !important;
+  border: none !important;
+  margin-top: 1rem !important;
+  color: white !important;
+  border-radius: 15px !important;
+  cursor: pointer !important;
+  font-weight: bolder !important;
+  margin: 10px;  
+  height: 10%;
+
+}
+
+.padraoButton:hover {
+  background: linear-gradient(#D9BC66, #A68A56, #D9BC66) !important;
+}
+
+.curso-botoes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.curso-botoes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.curso-capa {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.curso-capa img {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  max-height: 400px;
+}
+
+.curso-descricao {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: rgba(37, 37, 37, 0.548);
+}
+
+.curso-descricao h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.curso-detalhes-adicionais {
+  margin-bottom: 20px;
+}
+
+.curso-datas {
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.comentario {
+  border: 1px solid #0000002b;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.244);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: rgba(37, 37, 37, 0.548);
+}
+
+.comentarios-container {
+  background-color: rgba(37, 37, 37, 0.548);
+  display: flex;
+  flex-direction: column;
+}
+
+.comentario p {
+  margin: 5px 0;
+}
+
+.comentario p.nome-usuario {
+  font-size: 1.1rem;
+  color: #D9BC66;
+  text-align: left;
+}
+
+.bi-heart {
+  margin-right: 5px;
+}
+
+@media (max-width: 767px) {
+  .curso-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .curso-info .curso-capa {
+    order: 2;
+  }
+
+  .curso-info .curso-descricao {
+    order: 1;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .avaliacao-container,
+  .comentarios-container {
+    margin-top: 20px;
+  }
+
+  .comentarios-container h4 {
+    text-align: center;
+    
+  }
+
+  .comentarios-container input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .comentarios-container button {
+    margin-top: 10px;
+  }
+
+}
+
+.scrollable {
+  max-height: 400px;
+  overflow-y: auto; 
+  scroll-behavior: smooth; 
+  scroll-padding-bottom: 20px;
+}
+
+
+.scrollable::-webkit-scrollbar {
+  width: 6px; 
+}
+
+.scrollable::-webkit-scrollbar-track {
+  background-color: #3F3D40;
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background-color: #D9BC66; 
+  border-radius: 3px; 
+}
+
+.scrollable::-webkit-scrollbar-thumb:hover {
+  background-color: #A68A56; 
+}
+
+@media (max-width: 767px) {
+  .curso-descricao-mobile {
+    width: 100%;
+  }
+}
+

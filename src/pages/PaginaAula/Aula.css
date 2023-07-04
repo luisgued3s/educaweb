@@ -1,0 +1,76 @@
+.blocoAulas {
+  background-color: #3F3D40;
+  height: 100%;
+}
+
+.titleAulas h4 {
+  color: #a68a56;
+}
+
+.areaVideo {
+  margin-bottom: 20px;
+}
+
+.plyr--video{
+  display:block;
+  height:500px;
+  width:100%
+}
+
+@media (max-width: 768px) {
+  .plyr--video{
+    height: 300px;
+  }
+}
+
+.listaAulas {
+  background-color: #A68A56
+}
+
+.listaAulas a {
+  color: black;
+  text-decoration: none;
+}
+
+.btn-concluir-aula:hover {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.concluido {
+  color: #266134;
+  margin-left: 10px;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.buttonConclude {
+  margin-top: 20px;
+}
+
+.descricao-aula {
+  font-size: 16px;
+  color: black;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: #A68A56;
+  border: 1px solid #1b3f23;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-color: #266134;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.descricao-aula:hover {
+  border-color: #aaa;
+}
+
+.titleCurso {
+  color: #a68a56;
+  text-align: center;
+}
+
+.buttonCertificado {
+  margin-top: 16px;
+}

@@ -1,0 +1,146 @@
+.btn-header {
+  background-color: #a68a56;
+}
+
+.feature {
+  background-color: #d9bc66;
+}
+
+.conteudo {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+/*Carosel*/
+.carousel-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px; /* Altura do card */
+  background-color: #3f3d40;
+}
+
+.carousel-card img {
+  width: auto;
+  height: 60%;
+  object-fit: cover;
+}
+
+.carousel-card-body {
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-title {
+  color: #a68a56;
+  font-size: 1.5rem;
+}
+
+.card-description {
+  color: #d9bc66;
+  font-size: 1rem;
+}
+
+.card-custom {
+  background-color: #3f3d40;
+  border-color: #a68a56;
+}
+
+.card-custom .text-muted {
+  color: #ffffff;
+}
+
+.card-custom .intro {
+  color: #a68a56;
+}
+
+i.icon-2x {
+  font-size: 30px;
+}
+
+.color-light {
+  color: #ffffff;
+}
+
+.carousel.mobile-carousel .carousel-indicators {
+  display: none;
+}
+
+/*Botao Saiba mais*/
+.saiba-mais-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #a68a56;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.saiba-mais-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.saiba-mais-link:hover {
+  background-color: #d9bc66;
+}
+
+
+/*Comentarios*/
+.comentarios-container2 {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #0000002b;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.244);
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgba(37, 37, 37, 0.548);
+}
+
+.comentario-col {
+  flex-grow: 1;
+  margin-bottom: 20px;
+}
+
+.comentario-card {
+  background-color: #3f3d40;
+  border: 1px solid #a68a56;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comentario-img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.comentario-titulo {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.comentario-texto {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #d9bc66;
+}
+
+@media (max-width: 768px) {
+  .carousel-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel-card-body {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

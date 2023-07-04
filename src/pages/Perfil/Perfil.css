@@ -1,0 +1,170 @@
+body {
+  color: #fff;
+  background-color: #3f3d40;
+  font-family: sans-serif;
+}
+
+.perfilButton {
+  background: linear-gradient(#A68A56, #D9BC66, #A68A56) !important;
+  border: none !important;
+  margin-top: 1rem !important;
+  color: white !important;
+  font-size: 1.em !important;
+  border-radius: 15px !important;
+  cursor: pointer !important;
+  font-weight: bolder !important;
+  margin: 10px;
+  width: 200px;
+}
+
+.perfilButton:hover {
+  background: linear-gradient(#D9BC66, #A68A56, #D9BC66) !important;
+}
+
+h1 .nome-usuario,
+.data-nascimento,
+.escolaridade {
+  text-align: center;
+}
+
+.foto-perfil {
+  width: 40%;
+  height: 40%;
+  max-width: 200px;
+  background-color: #ccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+.foto-perfil::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+  margin-top: 35%;
+}
+
+.nome-usuario {
+  text-align: center;
+  font-weight: bold;
+  color: #bf9460;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.data-nascimento {
+  margin-top: 3%;
+  gap: 5px;
+  padding: 0px;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.escolaridade {
+  margin-top: 3%;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.bio {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  max-width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.addImagem {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.foto-perfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.tabelaDados{
+  display: flex;
+  margin: 0 auto;
+}
+
+.botoes {
+  gap: 5px;
+  margin-top: 10%;
+  display: grid;
+  justify-content: center;
+}
+
+    @media screen and (min-width: 1000px) {
+    .nome-usuario {
+        font-size: 25px;
+    }
+    .data-nascimento {
+        font-size: 15px;
+        margin: 15px auto;
+    }
+    .escolaridade {
+        margin-top: 20px;
+    }
+    .bio {
+        font-size: 15px;
+        margin-top: 25px;
+    }
+    .botoes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .botoes button{
+        height: 35px;
+        gap: 12px;
+        font-size: 13px;
+        
+    }
+    }
+
+    @media screen and (min-width: 280px) {
+        .botoes {
+            margin-top: 15px;
+        }
+    }
+
+    @media screen and (min-width: 1445px) {
+
+        .botoes button{
+            height: 5px;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        .bio {
+            font-size: 20px;
+            .botoes {
+                margin-top: 15%;
+            }
+        } 
+        .botoes button{
+          height: 35px;
+        }
+    }
+    
+    @media screen and (min-width: 540px) {
+        .foto-perfil {
+            margin-top: 5px;
+        }
+    }

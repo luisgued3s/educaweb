@@ -1,0 +1,30 @@
+body {
+  background-color: #3f3d40 !important;
+  margin-top: 10px !important;
+}
+
+.pageNotFound {
+  text-align: center;
+}
+
+.not-found {
+  color: #bf9460;
+}
+
+.elementAfterSlash {
+  color: #d9bc66;
+}
+
+.pageNotFound img {
+  margin-top: 1vw !important;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 5vh;
+}
+
+@media screen and (max-width: 640px) {
+  .pageNotFound img {
+    content: url("../../assets/images/not-found 094_640.jpg");
+  }
+}

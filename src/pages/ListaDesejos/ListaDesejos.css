@@ -1,0 +1,52 @@
+/* h1 {
+.titulo-desejos {
+    color: #d9bc66;
+    margin-top: 30px;
+    padding: 10px;
+} */
+
+.link-curso {
+  text-decoration: none;
+  color: #fff;
+}
+
+.link-curso {
+  text-decoration: none;
+  color: #fff;
+}
+
+.tabela td {
+  color: #fff;
+}
+
+.tabela th {
+  color: #d9bc66;
+}
+
+.tabela tbody tr:nth-child(odd) td {
+  color: #fff;
+}
+
+.nao-encontrado {
+  color: #fff;
+}
+
+.paginacao .page-item {
+  background-color: #d9bc66;
+  color: black;
+  border-color: #d9bc66;
+}
+
+.barra-pesquisa {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  height: 38px;
+}
+
+.botao-pesquisar {
+  height: 38px;
+}
+
+.paginacao .page-item.active .page-link {
+  background-color: #d9bc66;
+  border-color: #d9bc66;
+}

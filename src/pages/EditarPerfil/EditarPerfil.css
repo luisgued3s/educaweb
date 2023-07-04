@@ -1,0 +1,43 @@
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #3F3D40;
+    color: #A68A56;
+    padding-top: 1rem;
+}
+
+.label-color {
+    color: #A68A56 !important;
+}
+
+
+.editarPerfil {
+    padding: 8px;
+    border: 1px solid #A68A56;
+    border-radius: 6px;
+}
+
+.dadosAcesso {
+    padding: 8px;
+    border: 1px solid #A68A56;
+    border-radius: 6px;
+}
+
+.perfilButton {
+    background: linear-gradient(#A68A56, #D9BC66, #A68A56) !important;
+    border: none !important;
+    margin-top: 1rem !important;
+    color: white !important;
+    font-size: 1.em !important;
+    border-radius: 15px !important;
+    cursor: pointer !important;
+    font-weight: bolder !important;
+    margin: 10px;
+    width: 200px;
+}
+
+.perfilButton:hover {
+    background: linear-gradient(#D9BC66, #A68A56, #D9BC66) !important;
+}

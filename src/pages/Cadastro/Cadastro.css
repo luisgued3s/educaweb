@@ -1,0 +1,59 @@
+.texto-titulo,
+.form-nome,
+.form-email,
+.form-senha {
+  color: #d9bc66;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+
+
+.container-botao {
+  display: flex;
+  justify-content: center;
+}
+
+.botao-enviar {
+  background: linear-gradient(#a68a56, #d9bc66, #a68a56);
+  border: none;
+  margin-top: 1rem;
+  color: white;
+  padding: 0.8em 4em;
+  font-size: 1.1em;
+  border-radius: 8rem;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.social-cadastro {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link-login {
+  margin-top: 1rem;
+}
+
+.link-login a:hover,
+.link-login a:focus,
+.link-login a:active {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+
+.form-login {
+  color: #d9bc66;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+
+@media (max-width: 576px) {
+  .container-secundario,
+  .container-login {
+    padding: 20px;
+  }
+
+  .botao-enviar {
+    font-size: 1em;
+  }
+}

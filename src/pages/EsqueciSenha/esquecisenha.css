@@ -1,0 +1,25 @@
+.container-secundario {
+  width: 500px;
+  margin-top: 2rem;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.botao-enviar {
+  background: linear-gradient(#A68A56, #D9BC66, #A68A56);
+  border: none;
+  margin-top: 1rem;
+  color: white;
+  padding: 0.8em 4em;
+  font-size: 1.3em;
+  border-radius: 8rem;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.descricao-senha {
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}

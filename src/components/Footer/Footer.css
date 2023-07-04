@@ -1,0 +1,54 @@
+.footer {
+  background-color: #1d1c1c;
+  color: #fff;
+  padding: 3em;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.social_list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.social_list li {
+  margin: 0 1em;
+}
+
+.social_icon {
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #fff;
+}
+
+.social_icon:hover {
+  color: #ffbb33;
+}
+
+.copy_right {
+  margin-top: 2em;
+}
+
+.educaweb {
+  font-weight: bold;
+  color: #ffbb33;
+}
+
+
+@media only screen and (max-width: 340px) {
+  .social_list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social_list li {
+    margin: 1em;
+  }
+
+  .social_list svg {
+    font-size: 1em;
+  }
+}
